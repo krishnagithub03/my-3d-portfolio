@@ -7,6 +7,10 @@ import {
     typescript,
     html,
     css,
+    reactlogo,
+    githublogo,
+    ybif,
+    kiet,
     reactjs,
     redux,
     tailwind,
@@ -19,6 +23,7 @@ import {
     figma,
     docker,
     meta,
+    github,
     starbucks,
     tesla,
     shopify,
@@ -26,6 +31,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    linkedin,
+    codechef,
+    leetcode
   } from "../assets";
   
   export const navLinks = [
@@ -49,7 +57,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Js Developer",
       icon: mobile,
     },
     {
@@ -100,10 +108,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -116,12 +120,30 @@ import {
       icon: cpp,
     },
   ];
+  const footer = [
+    {
+      name: "LinkedIn",
+      icon: linkedin,
+    },
+    {
+      name: "Github",
+      icon: githublogo,
+    },
+    {
+      name: "Leetcode",
+      icon: leetcode,
+    },
+    {
+      name: "Codecehf",
+      icon: codechef,
+    },
+  ];
   
   const experiences = [
     {
       title: "Summer Intern",
       company_name: "YBI Foundation",
-      icon: starbucks,
+      icon: ybif,
       iconBg: "#383E56",
       date: "Aug 2021 - Aug 2021",
       points: [
@@ -133,7 +155,7 @@ import {
     {
       title: "Front-end Developer",
       company_name: "Innotech ,KIET Group Of Institutions",
-      icon: tesla,
+      icon: kiet,
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Jan 2022",
       points: [
@@ -145,7 +167,7 @@ import {
     {
       title: "React Js Developer",
       company_name: "3D Portfolio",
-      icon: shopify,
+      icon: reactlogo,
       iconBg: "#383E56",
       date: "April 2022 - April 2023",
       points: [
@@ -157,7 +179,7 @@ import {
     {
       title: "Opensourcery",
       company_name: "HacktoberFest 2k22",
-      icon: meta,
+      icon: githublogo,
       iconBg: "#E6DEDD",
       date: "Oct 2023",
       points: [
