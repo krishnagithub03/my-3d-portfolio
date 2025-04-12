@@ -7,7 +7,6 @@ import {
     typescript,
     html,
     css,
-    reactlogo,
     githublogo,
     ybif,
     kiet,
@@ -33,7 +32,15 @@ import {
     threejs,
     linkedin,
     codechef,
-    leetcode
+    leetcode,
+    gem,
+    platter,
+    java,
+    python,
+    fastapi,
+    aws,
+    gcp,
+    sql
   } from "../assets";
   
   export const navLinks = [
@@ -72,52 +79,80 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "javaa",
+      icon: java,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "cpp lang",
+      icon: cpp,
     },
     {
-      name: "JavaScript",
+      name: "python faknwk",
+      icon: python,
+    },
+    {
+      name: "javaScript wjfiw",
       icon: javascript,
     },
+    // {
+    //   name: "html 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "css 3",
+    //   icon: css,
+    // },
     {
-      name: "Bootstrap",
+      name: "bootstrap",
       icon: Bootstrap,
     },
     {
-      name: "React JS",
+      name: "react js",
       icon: reactjs,
     },
     {
-      name: "jQuery",
+      name: "jquery",
       icon: jQuery,
     },
     {
-      name: "Tailwind CSS",
+      name: "tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
+      name: "node js",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
+      name: "mongoDB",
       icon: mongodb,
     },
     {
-      name: "git",
+      name: "fastAPI",
+      icon: fastapi,
+    },
+    {
+      name: "aws",
+      icon: aws,
+    },
+    {
+      name: "gcp",
+      icon: gcp,
+    },
+    {
+      name: "sql",
+      icon: sql,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
+    {
+      name: "git github",
       icon: git,
     },
     {
-      name: "figma",
+      name: "figma uiuix",
       icon: figma,
-    },
-    {
-      name: "CPP",
-      icon: cpp,
     },
   ];
   const footer = [
@@ -141,51 +176,27 @@ import {
   
   const experiences = [
     {
-      title: "Summer Intern",
-      company_name: "YBI Foundation",
-      icon: ybif,
+      title: "Software Developer Trainee",
+      company_name: "Gemini Solutions, Gurugram",
+      icon: gem,
       iconBg: "#383E56",
-      date: "Aug 2021 - Aug 2021",
+      date: "Jan 2025 - Present",
       points: [
-        "Utilized machine learning techniques to identify correlations and patterns in data sets, developing faster & more accurate responses to company inquiries.",
-        "Utilized Python programming to develop software algorithms, increasing application performance by 30%.",
-        "Created analysis of experiment results with multiple variables for model optimization, which reduced processing time.",
+        "Gained hands-on training in Core Java, with a strong focus on object-oriented programming (OOPs) concepts,data structures, multithreading, error handling, and best practices in Java application development.",
+ "Collaborated in a team to build a task management system using the MERN stack (MongoDB, Express.js,React.js, Node.js), implemented responsive UI using Tailwind CSS, and managed application state effectively using Redux.",
+ "Implemented FastAPI in an internal project to build high-performance, asynchronous RESTful APIs with efficient request handling and data validation using Pydantic.",
       ],
     },
     {
-      title: "Front-end Developer",
-      company_name: "Innotech ,KIET Group Of Institutions",
-      icon: kiet,
+      title: "Software Engineering Intern",
+      company_name: "ProInfo Technologies, Noida",
+      icon: platter,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - Jan 2022",
+      date: "Sep 2024 - Jan 2025",
       points: [
-        "Developed frontend solutions utilizing HTML, CSS & Javascript, resulting in high usability.",
-        "Lead my team to achieve the deadline of this project and successfully deploy our Web application. ",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-      ],
-    },
-    {
-      title: "React Js Developer",
-      company_name: "3D Portfolio",
-      icon: reactlogo,
-      iconBg: "#383E56",
-      date: "April 2022 - April 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Single handedly implemeted this portfolio with reference to a course and designed to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-      ],
-    },
-    {
-      title: "Opensourcery",
-      company_name: "HacktoberFest 2k22",
-      icon: githublogo,
-      iconBg: "#E6DEDD",
-      date: "Oct 2023",
-      points: [
-        "Generated 8 pull request during the fest.",
-        "Collaborated with other developers during Hacktoberfest to complete projects and contribute to open source.",
-        "Learned about Open Scource and community",
+         "Engineered a user-friendly frontend with React.js and crafted a robust backend using Node.js and Express.js, ensuring seamless communication through the implementation of RESTful APIs that improved response by 30%",
+ "Containerized applications using Docker to create scalable, consistent, and efficient environments for both development and production deployments.",
+ "Deployed and managed the platform on Google Cloud Platform (GCP), leveraging its services to ensure high availability, reliability, and optimal performance.",
       ],
     },
   ];

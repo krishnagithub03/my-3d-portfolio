@@ -13,7 +13,7 @@ import kiet from "./kiet.png";
 import linkedin from "./linkedin.png";
 import codechef from "./codechef.png";
 import leetcode from "./leetcode.png";
-
+import gem from "./gem.jpeg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -39,6 +39,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import platter from "./platter.jpeg";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import fastapi from "./tech/fastapi.png";
+import aws from "./tech/aws.png";
+import gcp from "./tech/gcp.png";
+import sql from "./tech/sql.png";
 
 export {
   logo,
@@ -47,6 +54,11 @@ export {
   mobile,
   web,
   github,
+  python,
+  fastapi,
+  aws,
+  gcp,
+  sql,
   menu,
   close,
   css,
@@ -65,6 +77,7 @@ export {
   jQuery,
   cpp,
   Bootstrap,
+  java,
   redux,
   tailwind,
   typescript,
@@ -79,4 +92,6 @@ export {
   linkedin,
   leetcode,
   codechef,
+  gem,
+  platter,
 };
